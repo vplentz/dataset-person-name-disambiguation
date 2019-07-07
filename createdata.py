@@ -17,7 +17,7 @@ def printIR(fullname, disamb):
     print fullname+"\t"+disamb+"\t"+lab
 
 lineDict=dict()
-for line in open('disambiguations_en.ttl'):
+for line in open('disambiguations_en.nt'):
     line = line.strip()
     l = line.split(" ")
     if len(l)>=3:
